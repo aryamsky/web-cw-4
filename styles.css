@@ -14,20 +14,42 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+ /* pxالعرض هنا يجب ان يكون 120 */
+ width: 120px;
+ background-color: black;
+ color: white;
+ border-radius: 15px;
+margin: 5px;
+height: 673px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: blue;
+    border-radius: 15px;
+margin: 5px;
 }
 
 .main{
-
+background-color: aqua;
+height: 80%;
+border-radius: 15px;
+margin: 5px;
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
+
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+
+a:hover{
+    color: white;
+}
+p{
+    text-align: center;
 }
 
 /* !بــونص */
@@ -45,4 +67,7 @@ h2{
     margin: 0;
     margin-left: 5px;
 }
-
+.flexer{
+    display: flex;
+    height: 100%;
+}
